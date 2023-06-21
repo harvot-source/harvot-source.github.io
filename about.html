@@ -7,34 +7,50 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <style>
-        body {
-            background-color: darkcyan;
-        }
-
+       body {
+           
+           background-image: url("images/farm1.jpg");
+           background-repeat: no-repeat;
+           background-size: cover; 
+       }
         .navbar-toggler {
             background-color:brown;
         }
-        .active {
-
+        p , h2{
+            text-align:center;
         }
+        img {
+            border-radius: 8px;
+            box-shadow: 3px 3px 3px 3px red;
+        }  
+         img:hover {         
+            /* transform: scale(1.0);  */
+            border-radius: 20px;
+            box-shadow: 3px 3px 3px 3px orange;
+         }
+         .active {
+            border-radius: 8px;
+            box-shadow: 3px 3px 3px 3px white;
+         }
         
     </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-5">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-5 fixed-top">
         <div class="container-fluid">
             <a href="" class="navbar-brand">
-                <img src="logo.png" height="80" width="80" alt="" class="">
+                <img src="images/logo.png" height="50" width="60" alt="" class="">
             </a>
             <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#collapsiblenav">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="collapsiblenav">
-                <div class="navbar-nav">
-                    <a href="./bs-layout.html" class="nav-item nav-link active">Home</a>
-                    <a href="" class="nav-item nav-link">Technologies</a>
-                    <a href="" class="nav-item nav-link">About us</a>
-                    <a href="" class="nav-item nav-link">Contact us</a>
+                <div class="navbar-nav p-2">
+                    <a href="home.html" class="nav-item nav-link">Home</a>
+                    <a href="features.html" class="nav-item nav-link">Features</a>
+                    <a href="products.html" class="nav-item nav-link">Products</a>
+                    <a href="about.html" class="nav-item nav-link active">About</a>
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
                     
                 </div>
                 <div class="navbar-nav ms-auto">
@@ -47,97 +63,47 @@
 
     <div class="container">
         <div class="p-5 my-4 bg-light rounded-5">
-            <h1>Learn About Creative Ideas</h1>
-            <p class="lead">Powerful, extensible, and feature-packed frontend toolkit. Build and customize with Sass, utilize prebuilt grid system and components, and bring projects to life with powerful JavaScript plugins.</p>
-            <p >
-                <a href="" class="btn btn-primary btn-lg">Get started today</a>
-            </p>
-            <div class="row g-3">
-                <div class="col-lg-3 col-md-6">
-                    <h2>HTML</h2>
+            <h1>Good to know about the logo and the history of Cockfighting in the Philippines</h1>
+          
+            <div class="row g-12">
+                <div class="">
+                    <h2>
+                        <img src="images/logo.png" height="200" width="200" alt="" class=""><br>
+                        HALIMAW
+
+                    </h2>
                     <p class="overflow-hidden">
-                        Hypertext Markup Language, a standardized system for tagging text files to achieve font, color, graphic, and hyperlink effects on World Wide Web pages.
-                        "an HTML file"
+                        The logo features a monstrous interpretation of a rooster, combining elements of a rooster and a mythical creature. The rooster is depicted with exaggerated features such as sharp fangs, large horns, menacing eyes, and a more muscular and intimidating physique. The typography used in the logo may complement the monstrous theme, with jagged or bold lettering.
+                        Meanings: Power and Dominance: The monstrous rooster represents an amplified sense of power and dominance. It signifies the rooster's prowess as a fearsome creature, capable of overpowering opponents in a dramatic and intimidating way.
+                        Aggression and Intensity: The exaggerated features, such as sharp fangs and menacing eyes, convey a sense of aggression and intensity. The logo aims to evoke a feeling of raw ferocity and primal instincts associated with fierce competition.
+                        Uniqueness and Distinction: The monstrous interpretation of a rooster sets the logo apart from traditional rooster depictions. It symbolizes a distinctive and unique identity for the organization or event it represents. It can suggest that the activity associated with the logo is unconventional or pushes boundaries.
+                        Excitement and Thrill: The monstrous elements in the logo create an atmosphere of excitement and thrill. It captures the attention of the audience and generates curiosity, potentially attracting individuals seeking an adrenaline-filled experience.
+                        Symbolic Representation: The monster rooster can serve as a metaphorical representation of overcoming challenges or unleashing untapped potential. It can symbolize the inner strength and determination needed to face formidable opponents or achieve extraordinary accomplishments.              
+                        Brand Identity: The logo helps establish a memorable brand identity, especially if the organization or event aims to promote itself as bold, daring, and unique. The typography choice and overall design contribute to creating a cohesive and recognizable visual representation.
+                   
                     </p>
                     <p>
-                        <a href="#" class="btn btn-primary">Learn More</a>
+                      
                     </p>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                 <H2>CSS</H2>
-                 <P>CSS is used to define styles for your web pages, including the design, layout and variations in display for different devices and screen sizes.</P>
-                <br>
-                 <p>
-                    <a href="#" class="btn btn-primary">Learn More</a>
-                </p>
-                
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h2>JAVASCRIPT</h2>
-
+            </div>              
+            <div class="row g-12">             
+                <div class="">
+                    <h2><b>COCKFIGHTING HISTORY IN THE PHILIPPINES</b></h2>
                     <p>
-                        an object-oriented computer programming language commonly used to create interactive effects within web browsers.
-                    </p>
-                    <br>
-                    <p>
-                        <a href="#" class="btn btn-primary">Learn More</a>
+                        Cockfighting, known as "sabong" in the Philippines, has a long and deep-rooted history in the country. It is considered one of the oldest and most popular traditional sports and forms of entertainment in Filipino culture. Here is a brief overview of the history of cockfighting in the Philippines:
+                        Pre-colonial Era: Cockfighting has existed in the Philippines long before the arrival of the Spanish colonizers in the 16th century. It was practiced by indigenous communities as part of their cultural traditions and rituals, often associated with fertility rites, harvest celebrations, and warriorship.
+                        Spanish Colonial Period: During the Spanish colonial period (1565-1898), cockfighting underwent changes and adaptations. The Spanish authorities initially tried to ban the activity due to its association with indigenous practices. However, they eventually realized its popularity among the Filipino population and decided to regulate and tax it instead.
+                        Legitimization and Regulation: Cockfighting was officially recognized and regulated by Spanish authorities in the 18th century. Licenses were issued, and specific arenas called "cockpits" were established for the purpose of hosting cockfights. The Spanish government saw it as a means to generate revenue and control the activity.
+                        Influence on Society and Literature: Cockfighting became deeply ingrained in Filipino society, transcending social classes. It was not only a sport but also a social event where people gathered to socialize, bet on the fights, and enjoy the spectacle. Cockfighting also found its way into Philippine literature, with notable authors like Jose Rizal incorporating references to sabong in their works.
+                        American Period and Modern Times: When the Philippines came under American rule in the early 20th century, cockfighting continued to thrive and remained an integral part of Filipino culture. It gained further popularity and spread to various regions of the country. Today, cockfighting remains legal and regulated in the Philippines, with numerous licensed cockpits and organized derbies held throughout the year.
                     </p>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <h2>BOOTSTRAP</h2>
-                    <p>
-                        a technique of loading a program into a computer by means of a few initial instructions which enable the introduction of the rest of the program from an input device.
-                    </p>
-                    <p>
-                        <a href="#" class="btn btn-primary">Learn More</a>
-                    </p>
-                </div>
-            </div>
-            <div class="row g-3">
-                <div class="col-lg-3 col-md-6">
-                    <h2>NodeJS</h2>
-                    <p>
-                        Node.js (Node) is an open source, cross-platform runtime environment for executing JavaScript code. Node is used extensively for server-side programming, ...
-                    </p>
-                    <p>
-                        <a href="#" class="btn btn-primary">Learn More</a>
-                    </p>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                 <H2>PHP</H2>
-                 <P>PHP (Hypertext Processor) is a general-purpose scripting language and interpreter that is freely available and widely used for web development.</P>
-                <br>
-                 <p>
-                    <a href="#" class="btn btn-primary">Learn More</a>
-                </p>
-                
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h2>Laravel</h2>
-
-                    <p>
-                        Laravel is an open-source PHP framework, which is robust and easy to understand. It follows a model-view-controller design pattern.
-                    </p>
-                    <br>
-                    <p>
-                        <a href="#" class="btn btn-primary">Learn More</a>
-                    </p>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h2>SQL</h2>
-                    <p>
-                        SQL is, fundamentally, a programming language designed for accessing, modifying and extracting information from relational databases. As a programming language, ...
-                    </p>
-                    <p>
-                        <a href="#" class="btn btn-primary">Learn More</a>
-                    </p>
-                </div>
-            </div>
-            
-        
+            </div>      
         </div>
+    </div>
+            <!-- Footer -->
         <hr>
-
         <footer>
             <div class="row">
                 <div class="col-md-6">
@@ -149,7 +115,7 @@
                 </div>
             </div>
         </footer>
-    </div>
+   
    
     
 
