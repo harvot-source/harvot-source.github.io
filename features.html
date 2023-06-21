@@ -29,6 +29,41 @@
             border-radius: 8px;
             box-shadow: 3px 3px 3px 3px white;
          }
+         .carousel {
+            align-self:center;
+            margin-left: 20%;
+            width: 700px; 
+            height: 400px; 
+            border-radius: 20px;
+            box-shadow: 3px 3px 3px 3px rgb(90, 89, 86);
+           
+        }
+        
+        .carousel-inner img {
+            width: 100%;
+            height: 400px;
+            border-radius: 20px;
+            box-shadow: 3px 3px 3px 3px  rgb(90, 89, 86);
+            border-radius: 20px;
+            padding: 2px;        
+        }
+        h1 {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size:xx-large;
+            text-align: center;
+        }
+        .text {
+            color: white;
+        }
+        .bg-9DB2BF {
+            background-color: #9DB2BF;
+        }
+        .bg-27374D {
+            background-color: #27374D;
+        }
+        .btn {
+            margin-left: 50%;        
+        }
         
     </style>
 </head>
@@ -36,7 +71,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-5 fixed-top">
         <div class="container-fluid">
             <a href="" class="navbar-brand">
-                <img src="images/logo.png" height="50" width="60" alt="" class="logo">
+                <img src="images/logo.png" height="50" width="60" alt="logo" class="logo">
             </a>
             <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#collapsiblenav">
                 <span class="navbar-toggler-icon"></span>
@@ -60,144 +95,269 @@
 
     <div class="container">
         <div class="p-5 my-4 bg-light rounded-5">
-            <h1>Learn About Creative Ideas</h1>
-            <div class="row g-12">
-                <div class="col-12">
-                    <h2>DERBY CHAMPIONS AND THEIR FARMS</h2>
-
-                    <p>
-                       <img src="" alt="">
-                    </p>
-                    <br>
-                    <p>
-                        <a href="#" class="btn btn-primary">Learn More</a>
-                    </p>
+            <h1 class="p-2">DERBY CHAMPIONS AND THE BEST BREEDERS</h1>
+                    <!-- Carousel -->
+            <div class="container-lg my-3">
+                <div class="carousel slide" id="carousel-1" data-bs-ride="carousel">
+                    <ol class="carousel-indicators list-unstyled">
+                        <li class="active" data-bs-target="#carousel-1" data-bs-slide-to="0"></li>
+                        <li class="" data-bs-target="#carousel-1" data-bs-slide-to="1"></li>
+                        <li class="" data-bs-target="#carousel-1" data-bs-slide-to="2"></li>
+                        <li class="" data-bs-target="#carousel-1" data-bs-slide-to="3"></li>
+                        <li class="" data-bs-target="#carousel-1" data-bs-slide-to="4"></li>
+                        <li class="" data-bs-target="#carousel-1" data-bs-slide-to="5"></li>
+                        <li class="" data-bs-target="#carousel-1" data-bs-slide-to="6"></li>
+                        <li class="" data-bs-target="#carousel-1" data-bs-slide-to="7"></li>
+                        <li class="" data-bs-target="#carousel-1" data-bs-slide-to="8"></li>
+                        <li class="" data-bs-target="#carousel-1" data-bs-slide-to="9"></li>
+                        
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://manilastandard.net/wp-content/uploads/2022/05/bigger_world.jpg" alt="people image" class="d-block ">
+                        </div>                  
+                        <div class="carousel-item">
+                            <img src="https://www.megabites.com.ph/wp-content/uploads/2022/03/tj-marquez.jpg" alt="people image" class="d-block ">
+                        </div>          
+                        <div class="carousel-item">
+                            <img src="https://smartaranetacoliseum.com/files/news/img/9a62b1bf-2a16-47cb-b293-3113b4bb25a0/square_IMG_0923.jpeg" alt="people image" class="d-block">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://sa.kapamilya.com/absnews/abscbnnews/media/2022/sports/03/29/world-slasher-cup-fb-3292022.jpg" alt="people image" class="d-block">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://agraryo.com/wp-content/uploads/2022/12/nene-abello.jpg" alt="people image" class="d-block">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://purebredwarrior.com/wp-content/uploads/2020/11/Support-System.-Neil-Lizares-with-his-cousin-Archie-Locsin-and-Arnold-Mendoza-his-late-fathers-longtime-friend.-They-play-a-big-role-in-BNL-Gamefarm-and-provide-their-valuable-support-and-expertise.jpg" alt="people image" class="d-block">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://purebredwarrior.com/wp-content/uploads/2019/07/52104990_404090086823196_3669822672784588800_n.jpg" alt="people image" class="d-block">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://www.worldslashercup.ph/wp-content/uploads/2022/04/awarding-1920x1080-1-1024x576.jpg" alt="people image" class="d-block">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://www.worldslashercup.ph/wp-content/uploads/2023/05/DSC_0620-1024x681.jpg" alt="people image" class="d-block">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://manilastandard.net/wp-content/uploads/2022/06/world_slasher_cup.jpg" alt="people image" class="d-block">
+                        </div>
+                    </div>
+                    <a href="#carousel-1" class="carousel-control-prev" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a href="#carousel-1" class="carousel-control-next" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>         
+            </div>
+        <hr><hr>
+                <!-- Accordion -->
+            <h1>Top 5 Filipino Gamefowl Breeders</h1>
+    <div class="container">
+        <div id="accordion-1" class="accordion bg-9DB2BF">
+            <div class="accordion-item bg-dark text">
+                    <!-- accordion header -->
+                <h2 class="accordion-header" id="heading-1">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#content-1">
+                        <b> Rafael Nene Abello of RGA Gamefarm</b>
+                    </button>
+                </h2>
+                <div id="content-1" class="accordion-collapse collapse"  data-bs-parent="accordion-1">
+                    <div class="car-body">
+                        <p class="p-2">
+                            Also known as RGA Gamefarm, Nene Abello Gamefarm is located at #1 Purok PH, Roxas Ave, Bacolod, Negros Occidental. The farm is the home of the famous Possum 226 SWEATER. The owner Nene Abello is probably one, if not the biggest name in the cockfighting industry.  RGA Gamefarm has been winning national and international cockfights since 1992 and has won at least a dozen of derby championships.
+                            Rafael “Nene” Abello – one of the biggest names in gamefowl breeding in the country
+                        </p>
+                    </div>
                 </div>
             </div>
-            <div class="row g-3">
-                <div class="col-lg-3 col-md-6">
-                    <h2>NodeJS</h2>
-                    <p>
-                        Node.js (Node) is an open source, cross-platform runtime environment for executing JavaScript code. Node is used extensively for server-side programming, ...
-                    </p>
-                    <p>
-                        <a href="#" class="btn btn-primary">Learn More</a>
-                    </p>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <H2>PHP</H2>
-                    <P>PHP (Hypertext Processor) is a general-purpose scripting language and interpreter that is freely available and widely used for web development.</P>
-                    <br>
-                    <p>
-                        <a href="#" class="btn btn-primary">Learn More</a>
-                    </p>              
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h2>Laravel</h2>
 
-                    <p>
-                        Laravel is an open-source PHP framework, which is robust and easy to understand. It follows a model-view-controller design pattern.
-                    </p>
-                    <br>
-                    <p>
-                        <a href="#" class="btn btn-primary">Learn More</a>
-                    </p>
+            <div class="accordion-item bg-dark text">
+                <h2 class="accordion-header" id="heading-2">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#content-2">
+                        <b>Nene Aguilar Breeding Farm</b>
+                    </button>
+                </h2>
+                <div id="content-2" class="accordion-collapse collapse"  data-bs-parent="accordion-1">
+                    <div class="car-body">
+                        <p class="p-2 ">
+                            Located at Balubad 2nd Rd, Silang, Cavite, Nene Aguilar Breeding Farm is another popular game farm founded by the late Las Piñas mayor Vergel “Nene” Aguilar. The farm is known not because the late Mayor owns it but because it has a handful of derby championship winnings.                        </p>
+                    </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <h2>SQL</h2>
-                    <p>
-                        SQL is, fundamentally, a programming language designed for accessing, modifying and extracting information from relational databases. As a programming language, ...
-                    </p>
-                    <p>
-                        <a href="#" class="btn btn-primary">Learn More</a>
-                    </p>
+            </div>
+
+            <div class="accordion-item bg-dark text">
+                <h2 class="accordion-header" id="heading-3">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#content-3">
+                        <b>  Edwin Dela Cruz of AEJ Gamefarm</b>
+                    </button>
+                </h2>
+                <div id="content-3" class="accordion-collapse collapse"  data-bs-parent="accordion-1">
+                    <div class="car-body">
+                        <p class="p-2">
+                            AEJ Gamefarm is owned by Edwin Dela Cruz and is the winner of the 2017 World Slasher Cup. It is located at Brgy. Suplang, Tanauan City, Batangas The farm’s bloodline includes Golden Boy Sweater, 5K Sweater, Gilmore Hatch, Kearny Whitehackle, and Dom.                        </p>
+                    </div>
                 </div>
-            </div>       
+            </div>
+
+            <div class="accordion-item bg-dark text">
+                <h2 class="accordion-header" id="heading-4">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#content-4">
+                        <b> Raffy Campos and Edwin Arañez of RED Gamefarm</b>
+                    </button>
+                </h2>
+                <div id="content-4" class="accordion-collapse collapse"  data-bs-parent="accordion-1">
+                    <div class="car-body">
+                        <p class="p-2 ">
+                            RED Gamefarm is a big gamefowl breeder located in Lucban, Quezon province. The farm claims to produce 1,200 battle-ready fighting cocks every year. It is owned by Raffy Campos and Edwin Arañez and can be contacted through their Facebook Page.                         </p>          
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item bg-dark text">
+                <h2 class="accordion-header" id="heading-4">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#content-5">
+                    <b> Doyet Lapido of DL Gamefarm</b>
+                    </button>
+                </h2>
+                <div id="content-5" class="accordion-collapse collapse"  data-bs-parent="accordion-1">
+                    <div class="car-body">
+                        <p class="p-2 ">
+                            DL Gamefarm is owned by veterinarian Doyet Lapido in Catalunan Pequeño, Davao City. The farm produces gamefowl, offers K9 services, and has also an integrated farm.                        </p>
+                    </div>
+                </div>
+            </div>
+
         </div>
+    </div>
+          <!-- Accordion -->
+          <h1>Here are some general steps to breed roosters</h1>
+          <div class="container">
+              <div id="accordion-1" class="accordion bg-9DB2BF">
 
-            <div class="row g-3">
-                <div class="col-lg-3 col-md-6">
-                    <h2>HTML</h2>
-                    <p class="overflow-hidden">
-                        Hypertext Markup Language, a standardized system for tagging text files to achieve font, color, graphic, and hyperlink effects on World Wide Web pages.
-                        "an HTML file"
-                    </p>
-                    <p>
-                        <a href="#" class="btn btn-primary">Learn More</a>
-                    </p>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                 <H2>CSS</H2>
-                 <P>CSS is used to define styles for your web pages, including the design, layout and variations in display for different devices and screen sizes.</P>
-                <br>
-                 <p>
-                    <a href="#" class="btn btn-primary">Learn More</a>
-                </p>
+                        <div class="accordion-item bg-dark text">
+                                <!-- accordion header -->
+                            <h2 class="accordion-header" id="heading-6">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#content-6">
+                                    <b> Selection</b>
+                                </button>
+                            </h2>
+                            <div id="content-6" class="accordion-collapse collapse"  data-bs-parent="accordion-1">
+                                <div class="car-body">
+                                    <p class="p-2 ">
+                                        Choose healthy, mature roosters with desirable traits such as good size, strong build, attractive plumage, and desirable behavior. Consider the breed standards and objectives you have in mind for the offspring.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+      
+                        <div class="accordion-item bg-dark text">
+                            <h2 class="accordion-header" id="heading-7">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#content-7">
+                                    <b>Select Breeding Partners</b>
+                                </button>
+                            </h2>
+                            <div id="content-7" class="accordion-collapse collapse"  data-bs-parent="accordion-1">
+                                <div class="car-body">
+                                    <p class="p-2 ">
+                                        Pair your selected roosters with compatible hens. Consider the genetic diversity, breed standards, and desired traits when selecting the hens.
+                                        Provide Suitable Housing: Ensure that the roosters and hens have appropriate housing and living conditions. Provide adequate space, proper nutrition, clean water, and a comfortable environment.                          
+                                </div>
+                            </div>
+                        </div>
+      
+                        <div class="accordion-item bg-dark text">
+                            <h2 class="accordion-header" id="heading-8">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#content-8">
+                                    <b>  Natural Mating</b>
+                                </button>
+                            </h2>
+                            <div id="content-8" class="accordion-collapse collapse"  data-bs-parent="accordion-1">
+                                <div class="car-body">
+                                    <p class="p-2 ">
+                                    Allow the roosters and hens to engage in natural mating. Ensure that the roosters and hens have sufficient privacy and space to carry out the mating process.                         
+                                </div>
+                            </div>
+                        </div>
                 
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h2>JAVASCRIPT</h2>
-
-                    <p>
-                        an object-oriented computer programming language commonly used to create interactive effects within web browsers.
-                    </p>
-                    <br>
-                    <p>
-                        <a href="#" class="btn btn-primary">Learn More</a>
-                    </p>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h2>BOOTSTRAP</h2>
-                    <p>
-                        a technique of loading a program into a computer by means of a few initial instructions which enable the introduction of the rest of the program from an input device.
-                    </p>
-                    <p>
-                        <a href="#" class="btn btn-primary">Learn More</a>
-                    </p>
-                </div>
+                    <div class="accordion-item bg-dark text">
+                        <h2 class="accordion-header" id="heading-9">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#content-9">
+                                <b>  Provide Suitable Housing</b>
+                            </button>
+                        </h2>
+                        <div id="content-9" class="accordion-collapse collapse"  data-bs-parent="accordion-1">
+                            <div class="car-body">
+                                <p class="p-2 ">
+                                    Ensure that the roosters and hens have appropriate housing and living conditions. Provide adequate space, proper nutrition, clean water, and a comfortable environment.                     
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item bg-dark text">
+                        <h2 class="accordion-header" id="heading-10">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#content-10">
+                                <b> Observe and Monitor</b>
+                            </button>
+                        </h2>
+                        <div id="content-10" class="accordion-collapse collapse"  data-bs-parent="accordion-1">
+                            <div class="car-body">
+                                <p class="p-2 ">
+                                    Monitor the breeding process and observe the behavior of the roosters and hens. Ensure that mating is occurring and that the roosters are successfully fertilizing the eggs.                          
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item bg-dark text">
+                        <h2 class="accordion-header" id="heading-11">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#content-11">
+                            <b> Collect and Incubate Eggs</b>
+                            </button>
+                        </h2>
+                        <div id="content-11" class="accordion-collapse collapse"  data-bs-parent="accordion-1">
+                            <div class="car-body">
+                                <p class="p-2 ">
+                                    Collect the fertilized eggs laid by the hens and place them in an incubator or under a broody hen for hatching. Follow proper incubation procedures to maximize the chances of successful hatching.                                                         
+                            </div>
+                        </div>  
+                    </div>  
+                    <div class="accordion-item bg-dark text">
+                        <h2 class="accordion-header" id="heading-12">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#content-12">
+                            <b> Monitor Incubation</b>
+                            </button>
+                        </h2>
+                        <div id="content-12" class="accordion-collapse collapse"  data-bs-parent="accordion-1">
+                            <div class="car-body">
+                                <p class="p-2 ">
+                             Monitor the incubation process, ensuring the temperature and humidity levels are appropriate. Follow the guidelines specific to the breed you are breeding.                          
+                            </div>
+                        </div>  
+                    </div>  
+                    <div class="accordion-item bg-dark text">
+                        <h2 class="accordion-header" id="heading-13">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#content-13">
+                            <b> Caring for Chicks</b>
+                            </button>
+                        </h2>
+                        <div id="content-13" class="accordion-collapse collapse"  data-bs-parent="accordion-1">
+                            <div class="car-body">
+                                <p class="p-2">
+                            Once the chicks hatch, provide them with suitable housing, proper nutrition, and care. Ensure they are protected from predators and provided with a clean and comfortable environment.                           
+                        </div>  
+                    </div>  
             </div>
-            <div class="row g-3">
-                <div class="col-lg-3 col-md-6">
-                    <h2>NodeJS</h2>
-                    <p>
-                        Node.js (Node) is an open source, cross-platform runtime environment for executing JavaScript code. Node is used extensively for server-side programming, ...
-                    </p>
-                    <p>
-                        <a href="#" class="btn btn-primary">Learn More</a>
-                    </p>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <H2>PHP</H2>
-                    <P>PHP (Hypertext Processor) is a general-purpose scripting language and interpreter that is freely available and widely used for web development.</P>
-                    <br>
-                    <p>
-                        <a href="#" class="btn btn-primary">Learn More</a>
-                    </p>              
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h2>Laravel</h2>
-
-                    <p>
-                        Laravel is an open-source PHP framework, which is robust and easy to understand. It follows a model-view-controller design pattern.
-                    </p>
-                    <br>
-                    <p>
-                        <a href="#" class="btn btn-primary">Learn More</a>
-                    </p>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h2>SQL</h2>
-                    <p>
-                        SQL is, fundamentally, a programming language designed for accessing, modifying and extracting information from relational databases. As a programming language, ...
-                    </p>
-                    <p>
-                        <a href="#" class="btn btn-primary">Learn More</a>
-                    </p>
-                </div>
-            </div>       
         </div>
+        
+            <div class=" justify-content-end">              
+                <h1>Learn more by purchasing Books</h1>                      
+                    <a href="products.html" class="btn btn-outline-info btn-lg">
+                        <i class="bi bi-arrow-right-square-fill"></i>
+                    </a>                              
+            </div>                  
+    </div>
+    </div>
+   
         <hr>
-
         <footer>
             <div class="row">
                 <div class="col-md-6">
@@ -209,10 +369,6 @@
                 </div>
             </div>
         </footer>
-   
-   
-    
-
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 
