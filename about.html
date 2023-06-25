@@ -12,6 +12,7 @@
            background-image: url("images/farm1.jpg");
            background-repeat: no-repeat;
            background-size: cover; 
+           background-position: center center;     
        }
         .navbar-toggler {
             background-color:brown;
@@ -28,6 +29,11 @@
             border-radius: 20px;
             box-shadow: 3px 3px 3px 3px orange;
          }
+         .logo-img {
+            width:20%;
+            height: 190px;
+            
+         }
          .active {
             border-radius: 8px;
             box-shadow: 3px 3px 3px 3px white;
@@ -38,6 +44,39 @@
         .bg-40513B {
             background-color: #40513B;
         }
+        footer {
+            position: relative;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: black;
+            min-height: 10px;
+        }
+        .footer-text {
+            color: white;
+        }
+  
+        /* html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        } */
+        .container {
+            min-height: 100%;
+            /* Adjust padding as needed to create space for the footer */
+            padding-bottom: 10px;
+        }
+        nav li {
+            display: inline;
+            margin-right: 10px;
+        }
+        @media screen and (max-width: 480px) {
+          .logo-img {
+            width: 90%;
+            height: 120px;          
+         }
+        }
+            
         
     </style>
 </head>
@@ -75,7 +114,7 @@
             <div class="row g-12">
                 <div class="">
                     <h2>
-                        <img src="images/logo.png" height="200" width="200" alt="" class=""><br>
+                        <img src="images/logo.png"  alt="" class="logo-img"><br>
                         HALIMAW
 
                     </h2>
@@ -113,13 +152,17 @@
             <!-- Footer -->
         <hr>
         <footer>
-            <div class="row">
-                <div class="col-md-6">
-                  Allrights reserved  &copy; - 2023 HALIMAW
-                </div>
-              
-            </div>
+            <nav class="d-flex justify-content-center">
+                <ul class="">                 
+                     
+                    <li class="footer-text"> All Rights Reserved  &copy; - 2023 HALIMAW</li> 
+                    <img src="images/logo.png" height="50" width="60" alt="logo" class="">
+                                  
+                </ul>
+                
+              </nav>
         </footer> 
+       
    
    
     

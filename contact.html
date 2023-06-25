@@ -12,6 +12,7 @@
            background-image: url("images/farm1.jpg");
            background-repeat: no-repeat;
            background-size: cover; 
+           background-position: center center;     
        }
 
         .navbar-toggler {
@@ -52,6 +53,54 @@
         .bg-40513B {
             background-color: #40513B;
         }
+        footer {
+            position: relative;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: black;
+            min-height: 10px;
+        }
+        .footer-text {
+            color: white;
+        }
+  
+        /* html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        } */
+        .container {
+            min-height: 100%;
+            /* Adjust padding as needed to create space for the footer */
+            padding-bottom: 10px;
+        }
+        nav li {
+            display: inline;
+            margin-right: 10px;
+        }
+        .pp-img {
+            
+            height:40vh;
+            width: 54%;
+        }
+        iframe {
+          
+            width: 100%;
+            height: 60vh;
+        }
+        @media screen and (max-width: 480px){
+            iframe {         
+          width: 105%;
+          height: 20vh;
+            }
+         .pp-img {
+            
+            height:15vh;
+            width: 140%;
+             margin-left: -20%;
+             }
+         }
     </style>
 </head>
 <body>
@@ -89,18 +138,18 @@
             <div class="row g-6">
                 <div class="col-6 box1">
                     <h2>
-                        <img src="images/pp.jpg" alt=""  height="180" width="54%" class="img-top  box2 " ><br>
+                        <img src="images/pp.jpg" alt=""   class="img-top  box2 pp-img " ><br>
                         John Harvey Castro
                     </h2>
-                    <p>
+                    <p class="flex-wrap">
                         <a href="#" class="list-group-item p-2">
                             <i class="bi bi-house-fill"></i> Sudlon II, Cebu City, 6000 
                         </a> 
-                        <a href="#" class="card-text list-group-item p-2">
+                        <a href="#" class="card-text list-group-item p-2 text-wrap">
                             <i class="bi bi-telephone-fill"></i> 09503917260 / 09569425839 
                         </a>  
-                        <a href="#" class="list-group-item p-2">
-                            <i class="bi bi-envelope-at-fill"></i> jharveycatro2@gmail.com 
+                        <a href="#" class="list-group-item p-2 text-nowrap">
+                            <i class="bi bi-envelope-at-fill flex-wrap-reverse"></i> jharveycatro2@gmail.com 
                         </a>            
                     </p>
                     <p class="d-flex justify-content-center">
@@ -124,7 +173,7 @@
                     <p>
                         "A dedicated breeder understands that a champion rooster is not just born, but molded through careful selection, genetics, and expert handling."
                     </p>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3924.4938903711136!2d123.78830137495173!3d10.382291589743504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a97550f39a3a9b%3A0x63c26df844e01c38!2sSudlon%20National%20Park!5e0!3m2!1sen!2sph!4v1687277079561!5m2!1sen!2sph" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>             
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3924.4938903711136!2d123.78830137495173!3d10.382291589743504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a97550f39a3a9b%3A0x63c26df844e01c38!2sSudlon%20National%20Park!5e0!3m2!1sen!2sph!4v1687277079561!5m2!1sen!2sph"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>             
                 </div>         
             </div>     
         </div>
@@ -133,13 +182,17 @@
     </div>
     <!-- Footer -->
     <footer>
-        <div class="row">
-            <div class="col-md-6">
-              Allrights reserved  &copy; - 2023 HALIMAW
-            </div>
-           
-        </div>
+        <nav class="d-flex justify-content-center">
+            <ul class="">                 
+                 
+                <li class="footer-text"> All Rights Reserved  &copy; - 2023 HALIMAW</li> 
+                <img src="images/logo.png" height="50" width="60" alt="logo" class="">
+                              
+            </ul>
+            
+          </nav>
     </footer> 
+   
     
 
 

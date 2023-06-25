@@ -13,7 +13,8 @@
            
             background-image: url("images/farm1.jpg");
             background-repeat: no-repeat;
-            background-size: cover;         
+            background-size: cover; 
+            background-position: center center;        
         }
         .navbar-toggler {
             background-color:brown;
@@ -50,9 +51,11 @@
             text-align:center;
         }
         .fsize {
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-            font-size: 130px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 900%;
+            width: 100%;
         }
+        
         .bg-9DC08B {
             background-color: #9DC08B;
         }
@@ -60,16 +63,100 @@
             background-color: #40513B;
         }
         .btn {
-            margin-left: 50%;
+            margin-left: 2%;
             background-color:darkseagreen; 
+        }
+        .btn-mrg {
+            margin-left: 50%;
         }
         .mrg {
             margin-left: 5%;
         }
-        /* footer {      
-            text-align: center;
+        footer {
+            position: relative;
+            left: 0;
+            bottom: 0;
             width: 100%;
-        }  */
+            background-color: black;
+            min-height: 10px;
+        }
+        .footer-text {
+            color: white;
+        }
+  
+        /* html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        } */
+        .container {
+            min-height: 100%;
+            /* Adjust padding as needed to create space for the footer */
+            padding-bottom: 10px;
+            background-position: center center;     
+        }
+        nav li {
+            display: inline;
+            margin-right: 10px;
+        }
+        /* .flogo-img {
+          
+            height: 35px;
+            width:10%;
+        } */
+
+
+          @media screen and (max-width: 768px) {
+            .fsize {
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 500%;
+            width: fit-content;
+            margin-left: 30%;         
+        }
+             h1 {
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 200%;
+            width: fit-content;
+            margin-left: -9%;        
+            }
+            iframe {
+                width: 100%;
+                height: 25%;
+            }
+            .champs-img {
+                height: 130px;
+            }  
+        
+        } 
+
+        @media screen and (max-width: 480px) {
+            .fsize {
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 300%;
+            width: fit-content;
+            margin-left: -19%;         
+        }
+            h1 {
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 200%;
+            width: fit-content;
+            margin-left: -19%;        
+            }
+            iframe {
+                width: 100%;
+                height: 25%;
+            }
+            .champs-img {
+                height: 130px;
+            }
+            .flogo-img {
+
+            }
+        
+        }
+       
+       
+
 
       
     </style>
@@ -105,18 +192,31 @@
         <div class="p-5 my-4 bg-9DC08B rounded-5">
         <div class="p-5 my-4 bg-light rounded-5">
             <div class="">
-                <div class="">
-                    <h3 class="fsize">W E L C O M E</h3>
-                    <h2> ENTHUSIASTS, BREEDERS, AND FANS OF COCKFIGHTING</h2>              
+                <div class=" row g-12">
+                    <div class="col-lg-12 col-md-6 col-sm-3">
+                        <h3 class="fsize">WELCOME</h3>                       
+                    </div> 
+                    <h2> ENTHUSIASTS, BREEDERS, AND FANS OF COCKFIGHTING</h2>                                 
                 </div>
-                <div class="">
+            
+
+                <div class="row g-6">
                     
-                    <p class="col-lg-12 overflow-hidden">
-                        <img src="/images/gif/m5.gif" alt="" class="">   
-                        <img src="/images/gif/m4.gif" alt="" class=""> 
-                        <img src="/images/gif/m1.gif" alt="" class=""> 
-                        <img src="/images/gif/m6.gif" alt="" class="">       
-                    </p>
+                    <div class="col-lg-6 overflow-hidden">                      
+                        <img src="/images/gif/m5.gif" width="80%" alt="" class=""> 
+                    </div>   
+                    <div class="col-lg-6 overflow-hidden">        
+                        <img src="/images/gif/m4.gif" width="80%" alt="" class=""> 
+                    </div>
+                </div>   
+                <div class="row g-6">   
+                    <div class="col-lg-6 overflow-hidden">  
+                        <img src="/images/gif/m1.gif" width="80%" alt="" class=""> 
+                    </div>    
+                    <div class="col-lg-6 overflow-hidden">  
+                        <img src="/images/gif/m6.gif"  width="80%" alt="" class="">       
+                    </div>
+                   
                 </div>
             </div>
 
@@ -126,33 +226,32 @@
                 <div class="col-lg-6 col-md-6 box1">
                     <h2>TOP 10 GAMEFOWL BLOODLINES</h2>
                     
-                        <iframe class="w-100" height="580" src="https://www.youtube.com/embed/7Ml-SBADDU8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                        <p class="overflow-hidden">
-                        This Video feature are the Top 10 selection of Gamefowl Bloodlines. This is just based on our personal experience in gamefowl breeding. Gamefowl breeding is closely associated with cockfighting, a popular and ancient sport in many regions. Breeders aim to produce strong, agile, and skilled gamecocks that can excel in the cockfighting arena. The sport, although controversial in some places, attracts significant attention and generates economic activity through breeding, training, and gambling associated with it.                   
+                        <iframe class=" overflow-hidden" width="100%" height="50%" src="https://www.youtube.com/embed/7Ml-SBADDU8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <p class="">
+                        This Video feature are the Top 10 selection of Gamefowl Bloodlines. This is just based on our personal experience in gamefowl breeding. Gamefowl breeding is closely associated with cockfighting, a popular and ancient sport in many regions.               
+                    </p> 
                     <p>
-                        <a href="https://www.google.com/search?q=top+10+gamefowl+bloodlines&sxsrf=APwXEdfewb7RvGQuVzdfRS3uBY9twx_yww:1687280812173&source=lnms&tbm=vid&sa=X&ved=2ahUKEwjqoMjrqtL_AhV98DgGHf34A4AQ0pQJegQIBBAC&biw=1536&bih=754&dpr=1.25" class="btn btn-primary">
+                         <a href="https://www.google.com/search?q=top+10+gamefowl+bloodlines&sxsrf=APwXEdfewb7RvGQuVzdfRS3uBY9twx_yww:1687280812173&source=lnms&tbm=vid&sa=X&ved=2ahUKEwjqoMjrqtL_AhV98DgGHf34A4AQ0pQJegQIBBAC&biw=1536&bih=754&dpr=1.25" class="btn btn-primary">
                             View More
-                        </a>
+                        </a> 
                     </p>
+                      
                 </div>
                 <div class="col-lg-6 col-md-6 box1">
                     <h2> 7-STAG CLEAN-UP DERBY CROWNS 3 CHAMPS</h2>                         
-                    <img src="images/champs.jpg"  alt="" class="w-100">
+                    <img src="images/champs.jpg"  alt="" class="w-100 champs-img">
                     <p> 
                         Carmona—Circle 8 GF, Haring Bastos, and White Ears ruled the 7-Cock Derby Qualifiers 1 of the Manila Cockers Club, Inc., the country’s cockfighting industry game-changer, recently at the Cockers Arena. 
                         Circle 8 GF of Geronimo Sona III/Engr. Ernie Baldo; Haring Bastos of Kon. Aldwin Garcia and White Ears of JB Vinluan finished with 7 points each to win the qualifiers. 
                         Runner-ups include 3 Brothers of Francis and Frank Arellano and JA RDC of Joseph Aquino. 
                         MCC invites all interested breeders to join its 2020 Cock Season Derbies, namely the 7-Cock Derby Qualifiers 3  until February 16; the 7-Cock Derby Qualifiers 4  from February 21 to 29; the 7-Cock Derby Qualifiers 5 from March 3 to 11; the 7-Cock Derby Qualifiers 6 from March 14 to 22 and the 7-Cock Derby Qualifiers 7 from March 26 to April 3.               
-                    </p>
+                    </p>                 
                     <p>
-                        MANILA, Philippines — The Manila Cockers Club, Inc., the country’s cockfighting industry game changer, concluded its 7-Stag Clean-Up Derby from Jan. 5 to 13 at the Cockers Arena by crowning three champions.
-                        Buenas Diaz of Peter Buendia, Conqueror of Roger Jamisola and 9 De Pebrero of Antonio Espinosa were named co-champions with 6.5 points each. 
-                        Next were Dynamic Star RSA of Samuel M./Arnel A; Farmboys of Ruel Lizarda; JEC 11 DIAMOND of E. Aguilar; NLH GF of Nhelvin Henave; and Viva Penafrancia of Marites Zerrudo with six points each. 
-                    </p>
-
-                    <p><a href="https://www.philstar.com/sports/2020/01/31/1989276/7-stag-clean-derby-crowns-3-champs" class="btn btn-primary">Read More</a></p>                                
+                        <a href="https://www.philstar.com/sports/2020/01/31/1989276/7-stag-clean-derby-crowns-3-champs" class="btn btn-primary">Read More</a>
+                    </p>                                
                 </div>              
             </div>
+
             <hr><hr>
             <div class="row g-3">
                 <div class="col-lg-3 col-md-6">
@@ -187,7 +286,7 @@
 
                 <div class=" justify-content-center">              
                     <h2>Let's see what new features</h2>                      
-                        <a href="features.html" class="btn btn-outline-secondary btn-lg">
+                        <a href="features.html" class="btn btn-outline-secondary btn-lg btn-mrg">
                             <i class="bi bi-arrow-right-square-fill"></i>
                         </a>                              
                 </div>     
@@ -196,17 +295,22 @@
                     </p>          
         </div>
         </div>
+    </div>
         <hr>
 
         <footer>
-            <div class="row">
-                <div class="col-md-6">
-                  Allrights reserved  &copy; - 2023 HALIMAW
-                </div>
-              
-            </div>
+            <nav class="d-flex justify-content-center">
+                <ul class="">                 
+                     
+                    <li class="footer-text"> All Rights Reserved  &copy; - 2023 HALIMAW</li> 
+                    <img src="images/logo.png" height="50" width="60" alt="logo" class="flogo-img">
+                                  
+                </ul>
+                
+              </nav>
         </footer> 
-    </div>
+       
+    
    
     
 

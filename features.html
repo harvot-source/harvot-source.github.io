@@ -12,6 +12,7 @@
            background-image: url("images/farm1.jpg");
            background-repeat: no-repeat;
            background-size: cover; 
+           background-position: center center;     
        }
 
         .navbar-toggler {
@@ -40,9 +41,9 @@
             */
         }
         
-        .carousel-inner .carousel-item img {
-            width: 88%;
-            height: 498px;
+        .carousel-inner .carousel-item{
+            width: 100%;
+            height:;
             border-radius: 20px;
             box-shadow: 3px 3px 3px 3px  rgb(90, 89, 86);
             border-radius: 20px;
@@ -51,13 +52,24 @@
             background-size: cover; 
             margin-left: 6%;      
         }
-        .carousel-inner {
-         width: 100%;
+        img {
+            border-radius: 20px;
         }
-        h1 {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            font-size:xx-large;
+        .carousel-inner {
+        width:100%;
+         border-radius: 20px;
+         margin-left: -2%;
+        }
+        .carousel-img {
+            height: 600px;
+            width: 100%;
+        }
+        
+        h1, h3 {
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 280%;
             text-align: center;
+
         }
         .text {
             color: white;
@@ -77,6 +89,70 @@
         }
         .bg-40513B {
             background-color: #40513B;
+        }
+        .bg-#F7E1AE {
+            background-color: #F7E1AE;
+        }
+        footer {
+            position: relative;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: black;
+            min-height: 10px;
+        }
+        .footer-text {
+            color: white;
+        }
+  
+        /* html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        } */
+        .container {
+            min-height: 100%;
+            /* Adjust padding as needed to create space for the footer */
+            padding-bottom: 10px;
+        }
+        nav li {
+            display: inline;
+            margin-right: 10px;
+        }
+        @media screen and (max-width: 480px) {
+            .carousel-img {
+            height: 200px;
+            width: 100%;          
+        }
+        .carousel-inner {
+        width:140%;
+         border-radius: 20px;
+         margin: -28%;
+         margin-top: 1%;
+         
+        }
+        .carousel-inner .carousel-item{
+            width: 120%;
+            height:;
+            border-radius: 20px;
+            box-shadow: 3px 3px 3px 3px  rgb(90, 89, 86);
+            border-radius: 20px;
+            padding: 2px; 
+            background-position: center;
+            background-size: cover; 
+            margin-block-start: auto;   
+        }
+        .carousel {
+            align-self:center;
+            width: 150%;  
+            margin-left: -20%;     
+        }
+        h3 {
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 230%;
+            text-align: center;
+        }
+                
         }
     </style>
 </head>
@@ -109,7 +185,7 @@
     <div class="container">
         <div class="p-5 my-4 bg-9DC08B  rounded-5">
             <div class="p-5 my-4 bg-light rounded-5">
-                <h1 class="p-2">DERBY CHAMPIONS AND THE BEST BREEDERS</h1>
+                <h3 class="p-2">DERBY CHAMPIONS AND THE BEST BREEDERS</h3>
                 
                 <!-- Carousel -->
                 <div class="container-lg my-3">
@@ -129,34 +205,34 @@
                         </ol>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="https://scontent.fceb5-1.fna.fbcdn.net/v/t39.30808-6/328052103_569122161759790_661744421478029748_n.jpg?_nc_cat=101&cb=99be929b-3346023f&ccb=1-7&_nc_sid=0debeb&_nc_ohc=clW-a_dXyjgAX9Pe4DZ&_nc_ht=scontent.fceb5-1.fna&oh=00_AfCGk79mGj1to3766TXJDolMbakWfPdiK0UuNXS5lUdNJA&oe=6498F330" alt="people image" class="d-block ">
+                                <img src="https://scontent.fceb5-1.fna.fbcdn.net/v/t39.30808-6/328052103_569122161759790_661744421478029748_n.jpg?_nc_cat=101&cb=99be929b-3346023f&ccb=1-7&_nc_sid=0debeb&_nc_ohc=clW-a_dXyjgAX9Pe4DZ&_nc_ht=scontent.fceb5-1.fna&oh=00_AfCGk79mGj1to3766TXJDolMbakWfPdiK0UuNXS5lUdNJA&oe=6498F330" width="100%"  alt="people image" class="d-block carousel-img">
                             </div>                  
                             <div class="carousel-item">
-                                <img src="https://manilastandard.net/wp-content/uploads/2022/05/bigger_world.jpg" alt="people image" class="d-block ">
+                                <img src="https://manilastandard.net/wp-content/uploads/2022/05/bigger_world.jpg"  alt="people image" class="d-block carousel-img">
                             </div>                  
                             <div class="carousel-item">
-                                <img src="https://www.megabites.com.ph/wp-content/uploads/2022/03/tj-marquez.jpg" alt="people image" class="d-block ">
+                                <img src="https://www.megabites.com.ph/wp-content/uploads/2022/03/tj-marquez.jpg"  alt="people image" class="d-block carousel-img ">
                             </div>          
                             <div class="carousel-item">
-                                <img src="https://smartaranetacoliseum.com/files/news/img/9a62b1bf-2a16-47cb-b293-3113b4bb25a0/square_IMG_0923.jpeg" alt="people image" class="d-block">
+                                <img src="https://smartaranetacoliseum.com/files/news/img/9a62b1bf-2a16-47cb-b293-3113b4bb25a0/square_IMG_0923.jpeg"   alt="people image" class="d-block carousel-img">
                             </div>
                             <div class="carousel-item">
-                                <img src="https://scontent.fceb5-1.fna.fbcdn.net/v/t39.30808-6/348574643_871833207689267_6760904401772104087_n.jpg?_nc_cat=109&cb=99be929b-3346023f&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=nV_1h4T1Q1EAX-pPj3n&_nc_ht=scontent.fceb5-1.fna&oh=00_AfA6aEXjM2jN9dd4eIIJ3xjVCA4YisGqfIfM0XxpQ5akVw&oe=64996ED5" alt="people image" class="d-block">
+                                <img src="https://scontent.fceb5-1.fna.fbcdn.net/v/t39.30808-6/348574643_871833207689267_6760904401772104087_n.jpg?_nc_cat=109&cb=99be929b-3346023f&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=nV_1h4T1Q1EAX-pPj3n&_nc_ht=scontent.fceb5-1.fna&oh=00_AfA6aEXjM2jN9dd4eIIJ3xjVCA4YisGqfIfM0XxpQ5akVw&oe=64996ED5" width="100%"  alt="people image" class="d-block carousel-img">
                             </div>
                             <div class="carousel-item">
-                                <img src="https://agraryo.com/wp-content/uploads/2022/12/nene-abello.jpg" alt="people image" class="d-block">
+                                <img src="https://agraryo.com/wp-content/uploads/2022/12/nene-abello.jpg"   alt="people image" class="d-block carousel-img">
                             </div>
                             <div class="carousel-item">
-                                <img src="https://cdn-japantimes.com/wp-content/uploads/2022/03/np_file_147708.jpeg" alt="people image" class="d-block">
+                                <img src="https://cdn-japantimes.com/wp-content/uploads/2022/03/np_file_147708.jpeg"   alt="people image" class="d-block carousel-img">
                             </div>
                             <div class="carousel-item">
-                                <img src="https://purebredwarrior.com/wp-content/uploads/2019/07/52104990_404090086823196_3669822672784588800_n.jpg" alt="people image" class="d-block">
+                                <img src="https://purebredwarrior.com/wp-content/uploads/2019/07/52104990_404090086823196_3669822672784588800_n.jpg"   alt="people image" class="d-block carousel-img">
                             </div>
                             <div class="carousel-item">
-                                <img src="https://www.worldslashercup.ph/wp-content/uploads/2022/04/awarding-1920x1080-1-1024x576.jpg" alt="people image" class="d-block">
+                                <img src="https://www.worldslashercup.ph/wp-content/uploads/2022/04/awarding-1920x1080-1-1024x576.jpg"   alt="people image" class="d-block carousel-img">
                             </div>
                             <div class="carousel-item">
-                                <img src="https://www.worldslashercup.ph/wp-content/uploads/2023/05/DSC_0620-1024x681.jpg" alt="people image" class="d-block">
+                                <img src="https://www.worldslashercup.ph/wp-content/uploads/2023/05/DSC_0620-1024x681.jpg"  alt="people image" class="d-block carousel-img">
                             </div>
                             <!-- <div class="carousel-item">
                                 <img src="https://manilastandard.net/wp-content/uploads/2022/06/world_slasher_cup.jpg" alt="people image" class="d-block">
@@ -378,16 +454,21 @@
             </div>                  
     </div>
     </div>
+    </div>
    
         <hr>
-        <footer>
-            <div class="row">
-                <div class="col-md-6">
-                  Allrights reserved  &copy; - 2023 HALIMAW
-                </div>
-               
-            </div>
-        </footer> 
+    <footer>
+        <nav class="d-flex justify-content-center">
+            <ul class="">                 
+                    
+                <li class="footer-text"> Allrights reserved  &copy; - 2023 HALIMAW</li> 
+                <img src="images/logo.png" height="50" width="60" alt="logo" class="">
+                                
+            </ul>
+            
+            </nav>
+    </footer> 
+    
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 
